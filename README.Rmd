@@ -47,13 +47,16 @@ an intuitive interface on which other packages can be developed
 - **Model fitting and prediction:** Once specified, models can be fit to data
   and generate confidence and prediction intervals for future data using `fit()`
   and `predict()`.
+
+- **Model evaluation:** `evaluate_aic()`, `evaluate_resampling()` and
+  `evaluate_models()`.
   
 \* &nbsp; Requires [brms](https://CRAN.R-project.org/package=brms)
 
 ## Installing the package
 
-Once it is released on [CRAN](https://CRAN.R-project.org), you will be able to
-install the stable version of the package with:
+You can install the current version from [CRAN](https://CRAN.R-project.org)
+with:
 
 ```{r, eval=FALSE}
 install.packages("trending")

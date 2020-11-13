@@ -1,6 +1,6 @@
 Package: trending
 Title: Model Temporal Trends
-Version: 0.0.1.0
+Version: 0.0.1.9
 Authors@R:
     c(
       person(
@@ -24,8 +24,8 @@ Authors@R:
       )
     )
 Description: Provides a coherent interface to multiple modelling tools for
-  fitting trends along with a standardised approach for generating confidence
-  and prediction intervals.
+  fitting and evaluating trends along with a standardised approach for 
+  generating confidence and prediction intervals.
 URL: https://github.com/reconhub/trending
 BugReports: https://github.com/reconhub/trending/issues
 License: MIT + file LICENSE
@@ -36,7 +36,12 @@ RoxygenNote: 7.1.1
 Imports: 
     MASS,
     stats,
-    utils
+    utils,
+    yardstick,
+    rsample,
+    ellipsis,
+    tibble,
+    tidyr
 Suggests: 
     brms,
     ciTools,
